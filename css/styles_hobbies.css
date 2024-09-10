@@ -28,3 +28,18 @@ body{
    font-size: 40px;
    text-shadow: 3px 2px 5px rgb(117, 120, 137);
 }
+@media (max-width:767px){
+   body{
+      max-width: 500px;
+   }
+   .table{
+      width: 400px;
+      height: 250px;
+   }
+   .table th{
+      font-size: 20px;
+   }
+   .text{
+      font-size: 25px;
+   }
+}
