@@ -28,3 +28,14 @@ body{
    opacity: 0;
    animation: coming 2s forwards 5s;
 }
+@media (max-width:767px){
+   body{
+      max-width: 500px;
+   }
+   .text{
+      font-size: 20px;
+   }
+   .interests img{
+      width: 300px;
+   }
+}
