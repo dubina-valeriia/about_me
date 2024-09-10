@@ -23,7 +23,7 @@ body{
 }
 .text{
    display: block;
-   background-image: url('/img/background.jpg');
+   background-image: url('img/background.jpg');
    margin-top: 100px;
    text-align: center;
    font-size: 40px;
