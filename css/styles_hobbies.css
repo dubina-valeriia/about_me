@@ -15,7 +15,7 @@ body{
    background-color: #ffdcf7;
 }
 .table th, td:first-child{
-   background-image: url('/img/background.jpg');
+   background-color: #c3f6ff;
 }
 .table th{
    font-size: 30px;
@@ -23,7 +23,8 @@ body{
 }
 .text{
    display: block;
-   padding-top: 100px;
+   background-image: url('/img/background.jpg');
+   margin-top: 100px;
    text-align: center;
    font-size: 40px;
    text-shadow: 3px 2px 5px rgb(117, 120, 137);
