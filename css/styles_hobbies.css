@@ -15,7 +15,7 @@ body{
    background-color: #ffdcf7;
 }
 .table th, td:first-child{
-   background-color: #c3f6ff;
+   background-image: url('/img/background.jpg');
 }
 .table th{
    font-size: 30px;
