@@ -9,8 +9,6 @@ body {
    font-family: Playfair Display;
    font-size: 50px;
    text-align: center;
-
-
 }
 
 .main__name:hover {
@@ -125,4 +123,47 @@ legend {
 .links img {
    padding-right: 30px;
    width: 50px;
+}
+@media (max-width:767px){
+   body{
+      max-width: 300px;
+      font-size: 20px;
+   }
+   .main__name {
+      font-size: 25px;
+   }
+   .slider-container {
+      width: 300px;
+   }
+   .slider img {
+      width: 300px;
+   }
+   .prev-button, .next-button {
+      width: 40px;
+      height: 40px;
+      font-size: 15px;
+   }
+   .prev-button {
+      left: 5px;
+   }
+   .next-button {
+      right: 5px;
+   }
+
+   .main__description {
+      width: 300px;
+   }
+   .print_machine__container{
+      width: 380px;
+   }
+   .print_machine{
+      font-size: 20px;
+   }
+   .buttons{
+      flex-direction: column;
+      font-size: 20px;
+   }
+   .button{
+      width: 300px;
+   }
 }
