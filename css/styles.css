@@ -124,42 +124,7 @@ legend {
    padding-right: 30px;
    width: 50px;
 }
-@media (min-width:1020px){
-   body{
-      min-width: 900px;
-      font-size: 30px;
-   }
-   .slider-container {
-      min-width: 900px;
-   }
-   .slider img {
-      width: 900px;
-   }
-   .prev-button, .next-button {
-      width: 70px;
-      height: 70px;
-      font-size: 40px;
-   }
-   .prev-button {
-      left: 10px;
-   }
-   .next-button {
-      right: 10px;
-   }
-   .main__description {
-      min-width: 900px;
-   }
-   .print_machine__container{
-      width: 870px;
-   }
-   .print_machine{
-      font-size: 50px;
-   }
 
-   .links img {
-      width: 100px;
-   }
-}
 @media (max-width:992px){
    body{
       max-width: 700px;
