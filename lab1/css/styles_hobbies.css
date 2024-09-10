@@ -1,0 +1,30 @@
+body{
+   max-width: 900px;
+   margin: 50px auto;
+}
+.table{
+   border: 4px dotted grey;
+   border-spacing: 0px;
+   width: 600px;
+   height: 300px;
+   margin: 0 auto;
+   font-family: montserrat;
+}
+.table td, th, tr{
+   border: 2px solid rgb(78, 78, 78);
+   background-color: #ffdcf7;
+}
+.table th, td:first-child{
+   background-color: #c3f6ff;
+}
+.table th{
+   font-size: 30px;
+   font-family: playfair;
+}
+.text{
+   display: block;
+   padding-top: 100px;
+   text-align: center;
+   font-size: 40px;
+   text-shadow: 3px 2px 5px rgb(117, 120, 137);
+}

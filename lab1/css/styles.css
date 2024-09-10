@@ -1,0 +1,128 @@
+body {
+   background-color: #BCC0C3;
+   font-family: montserrat;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.main__name {
+   font-family: Playfair Display;
+   font-size: 50px;
+   text-align: center;
+
+
+}
+
+.main__name:hover {
+   transform: scale(1.1);
+   transition: all ease-in-out 0.5s;
+}
+
+/* стилизация слайдера */
+.slider-container {
+   position: relative;
+   width: 500px;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.slider img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.prev-button,
+.next-button {
+   position: absolute;
+   top: 50%;
+   width: 50px;
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.4);
+   cursor: pointer;
+   border: none;
+   border-radius: 50%;
+   font-size: 24px;
+   color: white;
+}
+
+.prev-button {
+   left: 10px;
+}
+
+.next-button {
+   right: 10px;
+}
+
+.main__description {
+   width: 505px;
+   margin: 40px auto;
+}
+
+legend {
+   text-align: center;
+}
+
+.main__description_text {
+   margin-bottom: 40px;
+}
+
+.main__description_text li {
+   margin-bottom: 10px;
+}
+.print_machine__container{
+   display: inline-block;
+}
+.print_machine {
+   font-family: 'Courier New', Courier, monospace;
+   margin-top: 20px;
+   overflow: hidden;
+   white-space: nowrap;
+   border-right: 5px solid rgb(58, 58, 58);
+   font-size: 30px;
+   width: 0;
+   animation: typing 2s steps(15) forwards;
+}
+@keyframes typing {
+   from { width: 0 }
+   to { width: 100% }
+}
+.buttons {
+   display: flex;
+   justify-content: space-around;
+}
+
+.button {
+   font-weight: 700;
+   padding: 10px;
+   text-decoration: none;
+   width: 200px;
+   height: 20px;
+   text-align: center;
+   background-color: white;
+   border: 3px solid black;
+   border-radius: 50px;
+   color: black;
+   margin-bottom: 20px;
+}
+
+.button:hover {
+   background-color: rgb(44, 44, 44);
+   border: 3px solid white;
+   color: white;
+   transition: all 0.4s ease;
+
+}
+
+.links {
+   display: flex;
+   width: 210px;
+   margin: 50px auto;
+}
+
+.links img {
+   padding-right: 30px;
+   width: 50px;
+}
