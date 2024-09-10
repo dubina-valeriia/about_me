@@ -1,0 +1,30 @@
+body{
+   background-color: rgb(255, 198, 253);
+}
+.text{
+   font-family: montserrat;
+   font-size: 100px;
+   margin-bottom: 30px;
+   font-weight: bold;
+   color: rgb(255, 198, 253);
+   text-shadow: 0 0 6px rgb(18, 18, 18);
+}
+.interests img{
+   width: 500px;
+}
+@keyframes coming {
+   from { opacity: 0 }
+   to { opacity: 100% }
+}
+.first{
+   opacity: 0;
+   animation: coming 2s forwards 1s;
+}
+.second{
+   opacity: 0;
+   animation: coming 2s forwards 3s;
+}
+.third{
+   opacity: 0;
+   animation: coming 2s forwards 5s;
+}
